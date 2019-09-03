@@ -6,4 +6,4 @@ var Title = React.createClass({
     }
 })
 
-module.exports = Title
+export default Title
