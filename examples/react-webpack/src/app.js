@@ -2,7 +2,7 @@ var React = require('react')
 
 var Title = React.createClass({
     render: function() {
-        return <h1>Tìtulo</h1>
+        return <h1>Tìtulo 2</h1>
     }
 })
 
