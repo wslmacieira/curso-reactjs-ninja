@@ -1,15 +1,14 @@
-import React from 'react' 
+import React, { Component} from 'react'
 import Title from './title'
 
-const App = React.createClass({
-    render: function () {
+class App extends Component {
+    render() {
         return (
             <div className='container'>
                 <Title name='Wagner' />
-                {/* <Title name='Wagner' lastname={{first: 'Li', last: 'ma'}} /> */}
             </div>
         )
     }
-})
+}
 
 export default App
