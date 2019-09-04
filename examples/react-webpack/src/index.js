@@ -1,4 +1,4 @@
-import React  from 'react'
+import React from 'react'
 import { render } from 'react-dom'
 import { AppContainer } from 'react-hot-loader'
 
@@ -17,7 +17,7 @@ renderApp(App)
 
 if (module.hot) {
     module.hot.accept('./app', () => {
-      const NextApp =  require('./app').default
+        const NextApp = require('./app').default
         renderApp(NextApp)
     })
 }
