@@ -26,6 +26,10 @@ class Timer extends Component {
         
     }
 
+    componentDidUpdate (prevProps, prevState) {
+        console.log('componentDidUpdate timer', this.props, prevProps)
+    }
+
     componentDidMount () {
         console.log('componentDidMount timer')
         
