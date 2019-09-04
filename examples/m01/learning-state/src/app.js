@@ -9,22 +9,22 @@ class App extends Component {
             time: 0,
             showTimer: true
         }
-        console.log('constructor')
+        console.log('constructor app')
         
     }
 
     componentWillMount () {
-        console.log('componentWillMount')    
+        console.log('componentWillMount app')    
     }
 
     componentDidMount () {
-        console.log('componentDidMount')
+        console.log('componentDidMount app')
         
     }
 
 
     render() {
-        console.log('render')
+        console.log('render app')
         
         return (
             <div>
