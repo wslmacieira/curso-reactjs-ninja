@@ -18,6 +18,11 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
+"@fdaciuk/ajax@2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@fdaciuk/ajax/-/ajax-2.1.2.tgz#8a4898f05f03465d03afbc509baad930fb5478fe"
+  integrity sha1-ikiY8F8DRl0Dr7xQm6rZMPtUeP4=
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
