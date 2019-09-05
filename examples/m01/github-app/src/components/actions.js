@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
 
 const Actions = ({ getRepos, getStarred}) => (
     <div className="actions">
@@ -6,5 +6,10 @@ const Actions = ({ getRepos, getStarred}) => (
         <button onClick={getStarred}>Ver Favoritos</button>
     </div>
 )
+
+Actions.propTypes = {
+getRepos: PropTypes.func.isRequired,
+getStarred: PropTypes.func.isRequired,
+}
 
 export default Actions;
