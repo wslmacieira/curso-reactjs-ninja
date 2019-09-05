@@ -9,7 +9,7 @@ class App extends Component {
     this.state = {
       userinfo: null,
       repos: [],
-      starred: []
+      starred: [],
     }
   }
 
@@ -23,8 +23,17 @@ class App extends Component {
     const value = e.target.value
     const keyCode = e.which || e.keyCode
     const ENTER = 13
+    const target = e.target
+
+// e.persist()
+
+// evento = {} 
+// callback(evento)
+// evento = null
 
     if (keyCode === ENTER) {
+      target.disabled = true 
+       console.log('evento', e)
       ajax().get(this.getGitHubApiUrl(value))
         .then((result) => {
           this.setState({
@@ -39,6 +48,10 @@ class App extends Component {
             repos: [],
             starred: []
           })
+        })
+        .always(() => {
+          console.log('evento', e)
+          target.disabled = false
         })
     }
   }
