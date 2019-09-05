@@ -1,7 +1,5 @@
 import React from 'react';
 
-// import { Container } from './styles';
-
 const UserInfo = () => (
     <div className="user-info">
         <img src='https://avatars2.githubusercontent.com/u/52054965?v=4' alt="" />
