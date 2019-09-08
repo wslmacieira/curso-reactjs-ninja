@@ -1,6 +1,9 @@
+const expect = require('chai').expect
+const sum = require('./sum')
 
-it('Um é igual a 1', () => {
-    expect(1).toBe(2)
+
+it('sum should be a function', () =>{
+    expect(sum).to.be.a('function')
 })
 
 

@@ -4,9 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "devDependencies": {
-    "jest-cli": "15"
+    "chai": "3.5.0",
+    "jest-cli": "15.1.1"
   }
 }
